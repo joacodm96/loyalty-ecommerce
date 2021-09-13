@@ -3,10 +3,11 @@ import { Grid } from "@material-ui/core";
 
 import Product from "./Product/Product";
 
+
 const products = [
-  { id: 1, name: "beanie", description: "gorro de lana doble", price: "$10" },
-  { id: 2, name: "hat", description: "gorra trucker curva", price: "$20" },
-  { id: 3, name: "canvas", description: "lona playera", price: "$15" },
+  { id: 1, name: "beanie", description: "gorro de lana doble", price: "$10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxsMveSbfYmky2uuGWwJmuagOf3Yq7S_9Jatknpva-YT5cc3LieCECZgIMm0EapKztts&usqp=CAU"  },
+  { id: 2, name: "hat", description: "gorra trucker curva", price: "$20", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxsMveSbfYmky2uuGWwJmuagOf3Yq7S_9Jatknpva-YT5cc3LieCECZgIMm0EapKztts&usqp=CAU" },
+  { id: 3, name: "canvas", description: "lona playera", price: "$15",image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxsMveSbfYmky2uuGWwJmuagOf3Yq7S_9Jatknpva-YT5cc3LieCECZgIMm0EapKztts&usqp=CAU" },
 ];
 
 const Products = () => {
